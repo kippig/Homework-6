@@ -1,0 +1,9 @@
+p = next_probable_prime(2^127-1)
+p
+two_to_the_m = Mod(89646952373925749567894332598989134553,p)
+n = 123456
+two_to_the_n = Mod(2, p)^n;
+
+print two_to_the_m^n
+
+#79067655658429219567805855344438774741
